@@ -1,0 +1,61 @@
+{
+    "name": "ajagabos/laravel-dhl",
+    "type": "project",
+    "description": "DHL API package for PHP Laravel developers",
+    "keywords": ["laravel", "dhl","php","package"],
+    "authors": [
+        {
+            "name": "Philip James Ajagabos",
+            "email": "ajagabos007@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.8",
+        "ramsey/uuid": "^4.7"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^11.1",
+        "symfony/var-dumper": "^7.0"
+    }
+    ,
+    "autoload": {
+        "psr-4": {
+            "Ajagabos\\DHL\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ajagabos\\DHL\\Tests\\":"tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+        ],
+        "post-update-cmd": [
+        ],
+        "post-root-package-install": [
+        ],
+        "post-create-project-cmd": [
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
