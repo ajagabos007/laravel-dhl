@@ -3,6 +3,7 @@
     "type": "library",
     "description": "DHL API package for PHP Laravel developers",
     "keywords": ["laravel", "dhl","php","package"],
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Philip James Ajagabos",
