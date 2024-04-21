@@ -1,6 +1,6 @@
 {
     "name": "ajagabos/laravel-dhl",
-    "type": "project",
+    "type": "library",
     "description": "DHL API package for PHP Laravel developers",
     "keywords": ["laravel", "dhl","php","package"],
     "authors": [
